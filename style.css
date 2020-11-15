@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* makes site more responsive */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(32, 35, 48);
+}
+
+#anshul {
+  position: absolute;
+  /* move it around more */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* these three things center it perfectly */
+  animation: fill 0.5s ease forwards 2s;
+}
+
+#anshul path:nth-child(1) {
+  stroke-dasharray: 510.72088623046875px;
+  /* stroke-dasharray causes spaces in text; */
+  stroke-dashoffset: 510.72088623046875px;
+  /* pushes everything around */
+  animation: line-animation 2s ease forwards;
+}
+#anshul path:nth-child(2) {
+  stroke-dasharray: 629.6697387695312px;
+  stroke-dashoffset: 629.6697387695312px;
+  animation: line-animation 2.2s ease forwards 0.2s;
+}
+#anshul path:nth-child(3) {
+  stroke-dasharray: 514.492919921875px;
+  stroke-dashoffset: 514.492919921875px;
+  animation: line-animation 2s ease forwards 0.4s;
+}
+#anshul path:nth-child(4) {
+  stroke-dasharray: 556.7999267578125px;
+  stroke-dashoffset: 556.7999267578125px;
+  animation: line-animation 2s ease forwards 0.6s;
+}
+#anshul path:nth-child(5) {
+  stroke-dasharray: 504.0547790527344px;
+  stroke-dashoffset: 504.0547790527344px;
+  animation: line-animation 2s ease forwards 0.8s;
+}
+#anshul path:nth-child(6) {
+  stroke-dasharray: 309.5999755859375px;
+  stroke-dashoffset: 309.5999755859375px;
+  animation: line-animation 2s ease forwards 1s;
+}
+
+@keyframes line-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
