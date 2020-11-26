@@ -20,36 +20,66 @@ body {
   animation: fill 0.5s ease forwards 2s;
 }
 
-#anshul path:nth-child(1) {
-  stroke-dasharray: 510.72088623046875px;
+#a1 {
+  stroke-dasharray: 517.3174438476562px;
   /* stroke-dasharray causes spaces in text; */
-  stroke-dashoffset: 510.72088623046875px;
+  stroke-dashoffset: 517.3174438476562px;
   /* pushes everything around */
   animation: line-animation 2s ease forwards;
 }
-#anshul path:nth-child(2) {
-  stroke-dasharray: 629.6697387695312px;
-  stroke-dashoffset: 629.6697387695312px;
+#n {
+  stroke-dasharray: 406.942626953125px;
+  stroke-dashoffset: 406.942626953125px;
   animation: line-animation 2.2s ease forwards 0.2s;
 }
-#anshul path:nth-child(3) {
-  stroke-dasharray: 514.492919921875px;
-  stroke-dashoffset: 514.492919921875px;
+#s {
+  stroke-dasharray: 392.0910949707031px;
+  stroke-dashoffset: 392.0910949707031px;
   animation: line-animation 2s ease forwards 0.4s;
 }
-#anshul path:nth-child(4) {
-  stroke-dasharray: 556.7999267578125px;
-  stroke-dashoffset: 556.7999267578125px;
+#h {
+  stroke-dasharray: 466.5958251953125px;
+  stroke-dashoffset: 466.5958251953125px;
   animation: line-animation 2s ease forwards 0.6s;
 }
-#anshul path:nth-child(5) {
-  stroke-dasharray: 504.0547790527344px;
-  stroke-dashoffset: 504.0547790527344px;
+#u1 {
+  stroke-dasharray: 411.7287292480469px;
+  stroke-dashoffset: 411.7287292480469px;
   animation: line-animation 2s ease forwards 0.8s;
 }
-#anshul path:nth-child(6) {
-  stroke-dasharray: 309.5999755859375px;
-  stroke-dashoffset: 309.5999755859375px;
+#l {
+  stroke-dasharray: 257.6620178222656px;
+  stroke-dashoffset: 257.6620178222656px;
+  animation: line-animation 2s ease forwards 1s;
+}
+
+#g {
+  stroke-dasharray: 606.0850830078125px;
+  stroke-dashoffset: 606.0850830078125px;
+  animation: line-animation 2s ease forwards 1s;
+}
+
+#u2 {
+  stroke-dasharray: 411.72894287109375px;
+  stroke-dashoffset: 411.72894287109375px;
+  animation: line-animation 2s ease forwards 1s;
+}
+
+#p {
+  stroke-dasharray: 549.8375854492188px;
+  stroke-dashoffset: 549.8375854492188px;
+  animation: line-animation 2s ease forwards 1s;
+}
+
+#t {
+  stroke-dasharray: 311.8351745605469px;
+  stroke-dashoffset: 311.8351745605469px;
+  animation: line-animation 2s ease forwards 1s;
+}
+
+#a2 {
+  stroke-dasharray: 484.72552490234375px;
+  stroke-dashoffset: 484.72552490234375px;
   animation: line-animation 2s ease forwards 1s;
 }
 
